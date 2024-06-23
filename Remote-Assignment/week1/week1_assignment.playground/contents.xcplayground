@@ -6,5 +6,6 @@
         <page name='Collection'/>
         <page name='Control Flow'/>
         <page name='Function'/>
+        <page name='Homework Patched'/>
     </pages>
 </playground>
