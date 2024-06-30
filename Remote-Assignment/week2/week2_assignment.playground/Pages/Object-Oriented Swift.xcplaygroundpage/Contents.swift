@@ -72,4 +72,4 @@ zoo.weeklyHot = horse
 //instance method只能在實例存在時使用，type method則是在類型中使用，適用於類型中的實例，也能繼承給子類。
 
 //8.
-//self在type method中指的是類型中的實例本身，譬如我有一個類別叫學生，如果我說學生.self指的應該是某個學生（實例）本人，而不是該類；用在instance method上就是字面意義的指向自己，self與實例本身完全等效。
+//self在instance method中指的是實例本身；用在type method上就是指向類別本身。
