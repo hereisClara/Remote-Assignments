@@ -70,4 +70,4 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
 //2. 在UITableViewDataSource這個protocol中，什麼方法會在我們手動呼叫reloadData()時被呼叫？
 
-//    首先會先呼叫numberOfSection釐清有多少section，再呼叫numberOfRowsInSection了解每個section中有多少row，接著會呼叫cellOfRowAt了解每一行應該有多少儲存格。基本上就是重新走一次TableView建立的流程。
+//    首先會先呼叫numberOfSection釐清有多少section，再呼叫numberOfRowsInSection了解每個section中有多少row，接著會呼叫cellOfRowAt返回每行應顯示的cell。基本上就是重新走一次TableView建立的流程。
